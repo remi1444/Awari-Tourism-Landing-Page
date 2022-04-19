@@ -749,17 +749,19 @@ details{
     display: flex;
     flex-direction: column;
     width: 100%;
-    /* margin: 2rem; */
     height: 300px;
 }
 .profile-1,
 .profile-2 {
   display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
   text-align: center;
 }
-
+.quote{
+    margin-bottom: 1rem;
+}
+.bio{
+    margin-top: 0.7rem;
+}
 .quoted-sign{
     display: none;
 }
