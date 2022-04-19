@@ -428,7 +428,7 @@ footer{
 
 @media (max-width: 640px) {
     .container{
-        width: 100vw;
+        width: 95vw;
         align-items: center;
         justify-content: center;
         overflow: hidden;
@@ -650,7 +650,7 @@ footer{
 }
 }
 
-@media (max-width: 376px) {
+@media (max-width: ) {
   .motto{
       font-size: 0.8rem;
      
@@ -659,7 +659,7 @@ footer{
   }
 
 }
-@media (max-width: 768px) {
+@media (max-width: ) {
     .motto{
         left: 16rem;
         font-size: 1.7rem;
