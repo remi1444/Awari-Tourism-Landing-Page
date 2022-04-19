@@ -1,0 +1,808 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    /* background-color: rgba(255, 255, 255, 0.838); */
+}
+body{
+    background: #E5E5E5;
+}
+.container{
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100%;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.logo img{
+width: 20px;
+margin-left: 0.5rem;
+}
+.logo h1{
+    font-size: 2rem;
+}
+.nav-bar{
+    width: 40%;
+    margin: auto 0;
+}
+.nav-bar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-bar ul li{
+    list-style: none;
+
+}
+.header-cta > button{
+ padding: 0.5rem 1rem;
+ border-radius: 7px;
+ border:2px solid #13A7E6;
+ color: #13A7E6;
+}
+#signup-btn{
+    color: whitesmoke !important;
+    background: #13A7E6;
+}
+header{
+   width: 90%;
+   display: flex; 
+   flex-direction: row;
+   justify-content: space-between;
+   margin: 1.5rem 0;
+}
+.motto{
+    color: whitesmoke;
+    position: absolute;
+    top: 15rem;
+    left: 420px;
+    width: 35%;
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 3rem;
+}
+.back-grd-image{
+    background: url(./images/top-bgd.svg);
+    background-position: center;
+    background-size: cover;
+    /* background-clip: inherit; */
+    height: 440px;
+    width: 95vw;
+}
+.modal{
+    background: rgb(252, 251, 251);
+    width: 70%;
+    margin: 0 auto;
+    padding: 2rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 1px 1px 4px 1px rgba(129, 102, 227, 0.5);
+    transform: translateY(-7rem);
+}
+.modal *{
+   margin: 0 0.9rem;
+}
+.modal button{
+    background: #13A7E6;
+    padding: 0.8rem 1.6rem;
+    border: none;
+    outline: none;
+    color: white;
+   
+}
+.modal form{
+    margin: auto 0;
+}
+form input{
+    border: none;
+    background: rgba(227, 223, 223, 0.4);
+    padding: 1rem 0.6rem;
+}
+input::placeholder,
+input{
+    color: rgb(89, 88, 88);
+}
+.mid-section{
+    margin: 4rem 0 2rem 0;
+}
+.mid-section p{
+    text-align: center;
+    line-height: 2.3rem;
+}
+.explore{
+    font-size: 1.5rem;
+}
+.mid-section span{
+    color: #13A7E6;
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0 1rem;
+}
+.destination-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 7rem;
+    width: 95vw;
+}
+.destination-info img{
+    margin: 0.5rem;
+    box-shadow: 1px 1px 4px 1px rgba(129, 102, 227, 0.5);
+    height: 220px;
+    border-radius: 0px 62px 0px 0px;
+}
+.port-hacourt{
+    border-radius: 0px !important;
+   
+}
+.destination-info{
+    display: flex;
+    flex-direction: column;
+    height: 15rem;
+    /* width: 25rem; */
+    
+}
+.destination-info p{
+    text-align: center;
+    position: relative;
+    bottom: 3rem;
+}
+.browse-places{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 6rem;
+    width: 80%;
+    
+}
+.browse__ span{
+    color: #13A7E6;
+    font-size: 1.5rem;
+    
+}
+
+.browse__{
+    margin-right: 4rem;
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+details{
+    border: 2px solid #8a8787;
+    padding: 0.3rem 1rem;
+}
+.tourist-services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 95vw;
+}
+.tourist-services img{
+    display: flex;
+    width: 292px;
+    margin: 0 0.5rem;
+}
+.tourist-services-info{
+    display:flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 4px 1px rgba(129, 102, 227, 0.5);
+    background: #f9f6f6cc;
+    margin:0 0.5rem 4rem 0.5rem;
+}
+.tourist-services-info *{
+    margin-left: 1rem;
+}
+.tourist-services-info p{
+    color: rgb(94, 94, 93);
+    font-size: 0.6rem;
+    margin-bottom: 1rem;
+}
+.tourist-services-info h2{
+    margin-top: 0.7rem;
+}
+/* fix the box shadow */
+.browse-destination{
+    margin-bottom: 4rem;
+}
+.destination__ span{
+    margin-left: 0.7rem;
+}
+.tour-locations{
+    display: flex;
+    flex-direction: row;
+    
+}
+.resize-img{
+    margin: 0 0.5rem;
+    width: 300px;
+}
+.location-details{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+}
+.location-details img{
+    width: 10px;  
+}
+.location-details  p{
+    margin-right: 1rem;
+    font-size: 10px;
+}
+.tour-locations h2{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    margin-top: -0.1rem;
+    padding-top: 0.6rem;
+}
+.resizing-reviews{
+    box-shadow: 1px 1px 4px 0px #8166e380;
+    width: 95%;
+    margin-left: 0.5rem;
+    margin-bottom: 10rem;
+}
+.assisting-to-find{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 95vw;
+    margin-bottom: 5rem;
+}
+.lost-info{
+    width: 95%;
+    margin-left: 15rem;
+}
+.lost-info p{
+   width: 95%; 
+}
+.lost{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.lost span,
+.heading span{
+    color: #13A7E6;
+    font-size: 1.5rem;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.heading h1{
+    font-size: 1.5rem;
+}
+
+.nav-btn{
+    display: flex;
+}
+.nav-btn button{
+    height: 30px;
+    background: #13A7E6;
+    width: 40px;
+    transform: translateX(19rem);
+    text-align: center;
+    border: none;
+}
+.nav-icon__,
+.nav-icon_{
+    margin-left: 2rem;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+}
+.nav-icon_{
+    color: rgb(102, 94, 94);
+    background: #f0efef !important;
+}
+.customer-review{
+    margin-top: 2.5rem;
+    margin-bottom: 7rem;
+    display: flex;
+    width: 95vw;
+
+}
+.profile-1,
+.profile-2{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 1px 1px 4px 2px #8166e380;
+    border-radius: 7px;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+.bio{
+    margin:0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.bio .quote{
+    margin-top: 1.5rem;
+    text-align: justify;
+}
+.country{
+    font-size: 0.6rem;
+    color: #8a8787;
+}
+.profile-2{
+    margin-left: 2rem;
+}
+.quoted-sign{
+    position: relative;
+    bottom: 105px;
+    left: 30.6rem;
+    height: 55px;
+    width: 55px;
+}
+
+footer{
+    background: #13A7E6;
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    color: white;
+    width: 100vw;
+}
+.awari-logo__{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 2rem;
+    margin-top: 0.5rem;
+
+}
+.awari-logo__ img{
+    height: 20px;
+    padding-left: 0.2rem;
+
+}
+.quick-link,
+.quick-link_{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 3rem;
+    width: 150px;
+}
+.quick-link a,
+.quick-link_ a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    padding-top: 0.5rem;
+}
+.subscription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    padding: 0 2rem;
+    margin-left: 4rem;
+}
+.subscription input{
+    padding: 0.4rem 9rem 0.8rem 6rem;
+    border: none;
+}
+.subscription p{
+    margin-top: 0.5rem ;
+}
+.subscription button{
+    padding: 0.4rem;
+    width: 30%;
+    background: #bdbdbd ;
+    color: rgba(0, 0, 0, 0.4);
+    border: none;
+    text-align: center;
+    position: relative;
+    left: 18.9rem;
+    bottom: 4.9rem;
+}
+.subscription input::placeholder{
+    color: rgba(0, 0, 0, 0.4);
+}
+.subscription p{
+    margin-bottom:1rem;
+}
+
+
+@media (max-width: 640px) {
+    .container{
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+   .logo{
+       display: flex;
+       align-items: center;
+       margin-bottom: 1rem;
+   }
+   header{
+       width: 95vw;
+       margin: 0.5rem 0rem 0 0.5rem;
+   }
+.logo h1{
+    font-size: 1.3rem;
+}
+.nav-bar,
+.header-cta{
+    display: none;
+}
+.back-grd-image{
+    height: 220px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    width: 100%;
+    margin: 0;
+    display: block;
+}
+.motto{
+   position: absolute;
+   top: 6rem;
+   font-size: 0.9rem;
+   left: 9rem;
+   line-height: 1.11rem;
+}
+.modal{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.modal button{
+    margin:  auto;
+    padding: 0.4rem;
+    border-radius: 7px;
+    font-size: 0.8rem;
+    
+}
+.modal input{
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+.explore,
+.lost,
+.lost span,
+.heading h1,
+.heading span{
+    font-size: 1rem;
+    text-align: center;
+}
+.lost-info p{
+    font-size: 0.7rem;
+    text-align: center;
+}
+.mid-section span{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.destination-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.destination-info img{
+    height: 250px;
+    border-radius: 0px 62px 0px 0px;
+    width: 95%;
+}
+.destination-info{
+    height: 17rem;
+    width: 90vw;
+}
+.browse__{
+    font-size: 1rem;
+    margin-bottom: 0.7rem;
+    text-align: center;
+}
+.browse__ span{
+    color: #13A7E6;
+    font-size: 1rem;
+    
+}
+.browse-places{
+    display: flex;
+    flex-direction: column;  
+}
+details{
+    border: 1px solid #8a8787;
+    width: 40%;
+    margin-left: 1rem;
+}
+.tourist-services{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.tourist-services img{
+    display: flex;
+    width: 96%;
+  /* margin: 0 0.5rem;   */
+}
+.tourist-services-info{
+    margin:0 0.5rem 2rem 0.5rem;
+}
+.browse-destination,
+.destination__{
+    text-align: center;
+    width: 100%;
+}
+.tour-locations{
+    display: flex;
+    flex-direction: column;
+}
+.resizing-reviews{  
+    margin-bottom: 1.5rem;
+    box-shadow: none;
+   
+}
+.resize-img{
+    margin: 0 0;
+    width: 100%;
+}
+
+.obudu-ranch-CR,
+.transcorp-hilton-Abj,
+.yankari-game-bauchi{
+    width: 90vw;
+    box-shadow: 1px 1px 4px 1px rgba(129, 102, 227, 0.5);
+    margin-bottom: 2rem;
+}
+.assisting-to-find{
+    display: flex;
+    flex-direction: column;
+}
+.assisting-to-find img{
+    width: 90vw;
+}
+.lost-info{
+    margin: auto;
+    padding-top: 2rem;
+}
+
+.nav-btn{
+    display: none;
+}
+.customer-review{
+   flex-direction: column;
+   width: 90%;
+}
+.profile-1,
+.profile-2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.profile-1,
+.profile-2 h2 p{
+    text-align: center;
+}
+
+.quoted-sign{
+    display: none;
+}
+.profile-2{
+    margin: 0;
+    margin-top: 2rem;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quick-link,
+.quick-link_ {
+    text-align: center;
+}
+.awari-logo__{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.awari-logo__ h1{
+    font-size: 1.5rem;
+    margin-right: 0.7rem;
+}
+.subscription p{
+    font-size: small;
+}
+.subscription{
+    padding: 0;
+    margin-left: 0rem;
+    width: 90%;
+}
+.subscription input{
+    width: 100%;
+}
+.subscription button{
+    position: relative;
+    left: 16.6rem;
+    bottom: 4.7rem;
+}
+.subscription input::placeholder{
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 0.8rem;
+    text-align: left;
+}
+}
+
+@media (max-width: 376px) {
+  .motto{
+      font-size: 0.8rem;
+     
+      left: 7rem;
+      top: 7rem;
+  }
+
+}
+@media (max-width: 768px) {
+    .motto{
+        left: 16rem;
+        font-size: 1.7rem;
+        line-height: 2rem;
+    }
+  .modal{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+  }
+  .modal input{
+      width: 100%;
+      margin-bottom: 0.8rem;
+  }
+  .modal button{
+    margin:  auto;
+    padding: 0.4rem;
+    border-radius: 7px;
+    font-size: 1rem;
+  }
+  .destination-img{
+      width: 95vw;
+  }
+  .destination-info{
+      height: 150px;
+  }
+  .destination-info img{
+      width: 95%;
+      border-top-right-radius: 30px;
+  }
+  .destination-info p{
+      margin-top: 1rem;
+  }
+  .tourist-services img{
+      width: 170px;
+  }
+  .tour-locations h2,
+  .tourist-services h2{
+      font-size: 0.7rem;
+  }
+
+  .obudu-ranch-CR,
+.transcorp-hilton-Abj,
+.yankari-game-bauchi{
+ height: 220px;
+}
+
+.tour-locations{
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+  .tour-locations *{
+      width: 202px;
+      margin: 0 0.5rem;
+  }
+.assisting-to-find{
+    width: 95vw;
+    margin-top: 2rem;
+}
+.assisting-to-find img{
+   width:350px;
+}
+.lost-info{
+    margin-left: 0;
+    padding-left: 2rem;
+}
+.lost-info p{
+    width: 100%;
+}
+.browse__,
+.destination__{
+    margin: 0;
+}
+.resize{
+    height: 40px;
+}
+.location-details img{
+    transform: translateX(-6px);
+}
+.nav-btn button{
+    height: 30px;
+    background: #13A7E6;
+    width: 40px;
+    transform: translateX(0rem);
+    text-align: center;
+    border: none;
+}
+.quoted-sign img{
+    display: none;
+}
+footer{
+    width: 95vw;
+    margin: 7px;
+}
+.awari-logo__{
+    padding: 8px 16px 8px 8px;
+    margin-top: 13px;
+}
+
+.quick-link,
+.quick-link_{
+    padding: 8px 16px 8px 8px;
+    margin: 7px;
+    font-size: 1rem;
+}
+
+.quick-link a,
+.quick-link_ a{
+    font-size: 1rem;
+}
+.quick-link p{
+    padding-top: 7px;
+}
+.subscription{
+    padding: 0;
+    margin: 0 1.5rem;
+    font-size: smallierr;
+}
+.subscription p{
+    width: 90%;
+    margin: 0;
+}
+.subscription input{
+    width: 89%;
+    margin: 0.7rem 0;
+    border-radius: 3px;
+}
+.subscription input::placeholder{
+    font-size: 1rem;
+}
+#email{
+    padding: 0.3rem 2rem;
+}
+.subscription button{
+    padding: 0.2rem;
+    font-size: 0.9rem;
+    left: 12.2rem;
+    bottom: 3.5rem;
+}
+
+}
