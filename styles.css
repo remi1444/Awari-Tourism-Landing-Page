@@ -426,6 +426,159 @@ footer{
 }
 
 
+
+
+
+@media (-width:780px ) {
+    .motto{
+        left: 16rem;
+        font-size: 1.7rem;
+        line-height: 2rem;
+    }
+  .modal{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+  }
+  .modal input{
+      width: 100%;
+      margin-bottom: 0.8rem;
+  }
+  .modal button{
+    margin:  auto;
+    padding: 0.4rem;
+    border-radius: 7px;
+    font-size: 1rem;
+  }
+  .destination-img{
+      width: 95vw;
+  }
+  .destination-info{
+      height: 150px;
+  }
+  .destination-info img{
+      width: 95%;
+      border-top-right-radius: 30px;
+  }
+  .destination-info p{
+      margin-top: 1rem;
+  }
+  .tourist-services img{
+      width: 170px;
+  }
+  .tour-locations h2,
+  .tourist-services h2{
+      font-size: 0.7rem;
+  }
+
+  .obudu-ranch-CR,
+.transcorp-hilton-Abj,
+.yankari-game-bauchi{
+ height: 220px;
+}
+
+.tour-locations{
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+  .tour-locations *{
+      width: 202px;
+      margin: 0 0.5rem;
+  }
+.assisting-to-find{
+    width: 95vw;
+    margin-top: 2rem;
+}
+.assisting-to-find img{
+   width:350px;
+}
+.lost-info{
+    margin-left: 0;
+    padding-left: 2rem;
+}
+.lost-info p{
+    width: 100%;
+}
+.browse__,
+.destination__{
+    margin: 0;
+}
+.resize{
+    height: 40px;
+}
+.location-details img{
+    transform: translateX(-6px);
+}
+.nav-btn button{
+    height: 30px;
+    background: #13A7E6;
+    width: 40px;
+    transform: translateX(0rem);
+    text-align: center;
+    border: none;
+}
+.quoted-sign img{
+    display: none;
+}
+footer{
+    width: 95vw;
+    margin: 7px;
+}
+.awari-logo__{
+    padding: 8px 16px 8px 8px;
+    margin-top: 13px;
+}
+
+.quick-link,
+.quick-link_{
+    padding: 8px 16px 8px 8px;
+    margin: 7px;
+    font-size: 1rem;
+}
+
+.quick-link a,
+.quick-link_ a{
+    font-size: 1rem;
+}
+.quick-link p{
+    padding-top: 7px;
+}
+.subscription{
+    padding: 0;
+    margin: 0 1.5rem;
+    font-size: smallierr;
+}
+.subscription p{
+    width: 90%;
+    margin: 0;
+}
+.subscription input{
+    width: 89%;
+    margin: 0.7rem 0;
+    border-radius: 3px;
+}
+.subscription input::placeholder{
+    font-size: 1rem;
+}
+#email{
+    padding: 0.3rem 2rem;
+}
+.subscription button{
+    padding: 0.2rem;
+    font-size: 0.9rem;
+    left: 12.2rem;
+    bottom: 3.5rem;
+}
+}
+
+
+
+
 @media (max-width: 640px) {
     .container{
         width: 95vw;
@@ -577,6 +730,7 @@ details{
 }
 .assisting-to-find img{
     width: 90vw;
+    margin: 0 auto;
 }
 .lost-info{
     margin: auto;
@@ -655,161 +809,3 @@ footer{
     text-align: left;
 }
 }
-
-/* 
-@media (max-width: ) {
-  .motto{
-      font-size: 0.8rem;
-     
-      left: 7rem;
-      top: 7rem;
-  }
-
-}
-@media (max-width: ) {
-    .motto{
-        left: 16rem;
-        font-size: 1.7rem;
-        line-height: 2rem;
-    }
-  .modal{
-    width: 70vw;
-    display: flex;
-    flex-direction: column;
-    height: 200px;
-  }
-  .modal input{
-      width: 100%;
-      margin-bottom: 0.8rem;
-  }
-  .modal button{
-    margin:  auto;
-    padding: 0.4rem;
-    border-radius: 7px;
-    font-size: 1rem;
-  }
-  .destination-img{
-      width: 95vw;
-  }
-  .destination-info{
-      height: 150px;
-  }
-  .destination-info img{
-      width: 95%;
-      border-top-right-radius: 30px;
-  }
-  .destination-info p{
-      margin-top: 1rem;
-  }
-  .tourist-services img{
-      width: 170px;
-  }
-  .tour-locations h2,
-  .tourist-services h2{
-      font-size: 0.7rem;
-  }
-
-  .obudu-ranch-CR,
-.transcorp-hilton-Abj,
-.yankari-game-bauchi{
- height: 220px;
-}
-
-.tour-locations{
-    width: 95vw;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-}
-  .tour-locations *{
-      width: 202px;
-      margin: 0 0.5rem;
-  }
-.assisting-to-find{
-    width: 95vw;
-    margin-top: 2rem;
-}
-.assisting-to-find img{
-   width:350px;
-}
-.lost-info{
-    margin-left: 0;
-    padding-left: 2rem;
-}
-.lost-info p{
-    width: 100%;
-}
-.browse__,
-.destination__{
-    margin: 0;
-}
-.resize{
-    height: 40px;
-}
-.location-details img{
-    transform: translateX(-6px);
-}
-.nav-btn button{
-    height: 30px;
-    background: #13A7E6;
-    width: 40px;
-    transform: translateX(0rem);
-    text-align: center;
-    border: none;
-}
-.quoted-sign img{
-    display: none;
-}
-footer{
-    width: 95vw;
-    margin: 7px;
-}
-.awari-logo__{
-    padding: 8px 16px 8px 8px;
-    margin-top: 13px;
-}
-
-.quick-link,
-.quick-link_{
-    padding: 8px 16px 8px 8px;
-    margin: 7px;
-    font-size: 1rem;
-}
-
-.quick-link a,
-.quick-link_ a{
-    font-size: 1rem;
-}
-.quick-link p{
-    padding-top: 7px;
-}
-.subscription{
-    padding: 0;
-    margin: 0 1.5rem;
-    font-size: smallierr;
-}
-.subscription p{
-    width: 90%;
-    margin: 0;
-}
-.subscription input{
-    width: 89%;
-    margin: 0.7rem 0;
-    border-radius: 3px;
-}
-.subscription input::placeholder{
-    font-size: 1rem;
-}
-#email{
-    padding: 0.3rem 2rem;
-}
-.subscription button{
-    padding: 0.2rem;
-    font-size: 0.9rem;
-    left: 12.2rem;
-    bottom: 3.5rem;
-}
-
-} */
