@@ -799,11 +799,11 @@ footer{
 }
 .subscription input{
     width: 100%;
+    padding-top: 0.7rem;
 }
 .subscription button{
-    position: relative;
-    left: 14.3rem;
-    bottom: 4.7rem;
+  transform: translateY(-9rem);
+  transform: translateX(-5rem);
 }
 .subscription input::placeholder{
     color: rgba(0, 0, 0, 0.4);
