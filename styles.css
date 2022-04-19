@@ -595,10 +595,15 @@ details{
     display: flex;
     flex-direction: column;
     width: 100%;
+    /* margin: 2rem; */
+    height: 300px;
 }
 .profile-1,
-.profile-2 h2 p{
-    text-align: center;
+.profile-2 {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  text-align: center;
 }
 
 .quoted-sign{
@@ -613,6 +618,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100% !important;
 }
 .quick-link,
 .quick-link_ {
@@ -650,6 +656,7 @@ footer{
 }
 }
 
+/* 
 @media (max-width: ) {
   .motto{
       font-size: 0.8rem;
@@ -805,4 +812,4 @@ footer{
     bottom: 3.5rem;
 }
 
-}
+} */
