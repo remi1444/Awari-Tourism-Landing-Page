@@ -12,13 +12,12 @@ body{
     background: #E5E5E5;
 }
 .container{
-    width: 95vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    height: 100%;
+   
 }
 .logo{
     display: flex;
@@ -64,10 +63,10 @@ header{
 }
 .motto{
     color: whitesmoke;
-    position: absolute;
+    /* position: absolute;
     top: 15rem;
     left: 420px;
-    width: 35%;
+    width: 35%; */
     font-size: 2rem;
     text-transform: capitalize;
     text-align: center;
@@ -77,20 +76,20 @@ header{
     background: url(./images/top-bgd.svg);
     background-position: center;
     background-size: cover;
-    /* background-clip: inherit; */
-    height: 440px;
-    width: 95vw;
+    background-clip: inherit;
+    height: 450px;
+    width: 100%;
 }
 .modal{
     background: rgb(252, 251, 251);
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
     padding: 2rem;
     margin-top: 3rem;
     display: flex;
     justify-content: space-evenly;
     box-shadow: 1px 1px 4px 1px rgba(129, 102, 227, 0.5);
-    transform: translateY(-7rem);
+    transform: translateY(18.5rem);
 }
 .modal *{
    margin: 0 0.9rem;
@@ -124,6 +123,7 @@ input{
 }
 .explore{
     font-size: 1.5rem;
+    margin-top: 2rem;
 }
 .mid-section span{
     color: #13A7E6;
@@ -136,7 +136,7 @@ input{
     flex-direction: row;
     justify-content: space-evenly;
     margin-bottom: 7rem;
-    width: 95vw;
+    width: 100%;
 }
 .destination-info img{
     margin: 0.5rem;
@@ -188,11 +188,10 @@ details{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 95vw;
+    width: 95%;
 }
 .tourist-services img{
     display: flex;
-    width: 292px;
     margin: 0 0.5rem;
 }
 .tourist-services-info{
@@ -227,7 +226,7 @@ details{
 }
 .resize-img{
     margin: 0 0.5rem;
-    width: 300px;
+    width: 95%;
 }
 .location-details{
     display: flex;
@@ -396,7 +395,7 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 500px;
+    flex-wrap: wrap;
     padding: 0 2rem;
     margin-left: 4rem;
 }
@@ -429,27 +428,46 @@ footer{
 
 
 
-@media (-width:780px ) {
+@media (max-width:991px ) {
+    header{
+        margin: auto;
+        padding: 2rem 0;
+    }
+    
+    .container{
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0 auto;
+        overflow-y: hidden;
+    }
     .motto{
-        left: 16rem;
         font-size: 1.7rem;
         line-height: 2rem;
+        margin-bottom: 10rem;
     }
-  .modal{
-    width: 70vw;
+     .modal{
+    width: 70%;
     display: flex;
     flex-direction: column;
     height: 200px;
+    margin: auto;
+    position: relative;
+    bottom: 8rem;
+  
   }
   .modal input{
       width: 100%;
       margin-bottom: 0.8rem;
+      margin-left: 0;
   }
   .modal button{
     margin:  auto;
     padding: 0.4rem;
     border-radius: 7px;
     font-size: 1rem;
+  }
+  .mid-section{
+      margin-top: 7rem;
   }
   .destination-img{
       width: 95vw;
@@ -465,7 +483,7 @@ footer{
       margin-top: 1rem;
   }
   .tourist-services img{
-      width: 170px;
+      width: 91%;
   }
   .tour-locations h2,
   .tourist-services h2{
@@ -487,7 +505,7 @@ footer{
     margin: 0 auto;
 }
   .tour-locations *{
-      width: 202px;
+      /* width: 202px; */
       margin: 0 0.5rem;
   }
 .assisting-to-find{
@@ -495,7 +513,7 @@ footer{
     margin-top: 2rem;
 }
 .assisting-to-find img{
-   width:350px;
+   width: 40%;
 }
 .lost-info{
     margin-left: 0;
@@ -526,7 +544,7 @@ footer{
     display: none;
 }
 footer{
-    width: 95vw;
+    width: 95%;
     margin: 7px;
 }
 .awari-logo__{
@@ -552,6 +570,7 @@ footer{
     padding: 0;
     margin: 0 1.5rem;
     font-size: smallierr;
+   
 }
 .subscription p{
     width: 90%;
@@ -574,14 +593,18 @@ footer{
     left: 12.2rem;
     bottom: 3.5rem;
 }
+
 }
 
 
 
 
-@media (max-width: 640px) {
+@media screen and (max-width: 640px) {
+    .nav-bar{
+        color: aqua;
+    }
     .container{
-        width: 95vw;
+        width: 100%;
         align-items: center;
         justify-content: center;
         overflow: hidden;
@@ -795,7 +818,7 @@ footer{
 .subscription{
     padding: 0;
     margin-left: 0rem;
-    width: 90%;
+    width: 100%;
 }
 .subscription input{
     width: 100%;
@@ -811,3 +834,4 @@ footer{
     text-align: left;
 }
 }
+
