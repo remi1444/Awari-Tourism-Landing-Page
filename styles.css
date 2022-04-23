@@ -63,21 +63,21 @@ header{
 }
 .motto{
     color: whitesmoke;
-    /* position: absolute;
-    top: 15rem;
-    left: 420px;
-    width: 35%; */
-    font-size: 2rem;
+    font-size: 2.5rem;
+    opacity: 0.8;
     text-transform: capitalize;
     text-align: center;
     line-height: 3rem;
+    transform: translateY(11rem);
+    width: 35%;
+    margin: auto;
 }
 .back-grd-image{
     background: url(./images/top-bgd.svg);
     background-position: center;
     background-size: cover;
     background-clip: inherit;
-    height: 450px;
+    height: 60vh;
     width: 100%;
 }
 .modal{
@@ -89,7 +89,7 @@ header{
     display: flex;
     justify-content: space-evenly;
     box-shadow: 1px 1px 4px 1px rgba(129, 102, 227, 0.5);
-    transform: translateY(18.5rem);
+    transform: translateY(14.5rem);
 }
 .modal *{
    margin: 0 0.9rem;
@@ -414,7 +414,7 @@ footer{
     border: none;
     text-align: center;
     position: relative;
-    left: 18.9rem;
+    left: 19.9rem;
     bottom: 4.9rem;
 }
 .subscription input::placeholder{
@@ -433,38 +433,50 @@ footer{
         margin: auto;
         padding: 2rem 0;
     }
-    
+    .back-grd-image{
+        height: 20vh;
+        margin-bottom: 7rem;
+    }
     .container{
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         width: 100%;
         margin: 0 auto;
-        overflow-y: hidden;
+       
     }
     .motto{
         font-size: 1.7rem;
         line-height: 2rem;
-        margin-bottom: 10rem;
+        width: 45%;
+        font-size: 1.5rem;
+        margin: auto;
+        transform: translateY(6rem);
     }
      .modal{
-    width: 70%;
-    display: flex;
-    flex-direction: column;
+    width: 75%;
+    transform: translateY(5rem);
     height: 200px;
-    margin: auto;
-    position: relative;
-    bottom: 8rem;
-  
+    justify-content: center;
+    align-items: center;
+  }
+  form{
+      display: flex;
+      flex-direction: row;
   }
   .modal input{
-      width: 100%;
       margin-bottom: 0.8rem;
       margin-left: 0;
+      flex-direction: row;
   }
   .modal button{
-    margin:  auto;
-    padding: 0.4rem;
+    padding: 1rem 0.7rem;
     border-radius: 7px;
-    font-size: 1rem;
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 53px; */
+    margin-bottom: 13px;
+   
   }
   .mid-section{
       margin-top: 7rem;
@@ -510,7 +522,7 @@ footer{
   }
 .assisting-to-find{
     width: 95vw;
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 .assisting-to-find img{
    width: 40%;
@@ -524,7 +536,7 @@ footer{
 }
 .browse__,
 .destination__{
-    margin: 0;
+    margin-right: 1rem;
 }
 .resize{
     height: 40px;
@@ -544,8 +556,7 @@ footer{
     display: none;
 }
 footer{
-    width: 95%;
-    margin: 7px;
+display: block;
 }
 .awari-logo__{
     padding: 8px 16px 8px 8px;
@@ -587,11 +598,12 @@ footer{
 #email{
     padding: 0.3rem 2rem;
 }
-.subscription button{
+.subscription btton{
     padding: 0.2rem;
     font-size: 0.9rem;
     left: 12.2rem;
     bottom: 3.5rem;
+
 }
 
 }
