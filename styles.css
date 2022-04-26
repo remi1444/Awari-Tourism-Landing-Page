@@ -73,11 +73,13 @@ header{
     margin: auto;
 }
 .back-grd-image{
-    background: url(./images/top-bgd.svg);
+    background:url(./images/top-bgd.svg),rgba(20, 20, 21, 0.5);
     background-position: center;
     background-size: cover;
-    background-clip: inherit;
-    height: 60vh;
+    background-repeat: no-repeat;
+    /* background-clip: inherit; */
+    background-blend-mode: darken;
+    /* height: 60vh; */
     width: 100%;
 }
 .modal{
@@ -360,6 +362,7 @@ footer{
     display: flex;
     flex-direction: row;
     margin: 1rem;
+    margin-bottom: 0;
     color: white;
     width: 100vw;
 }
