@@ -18,6 +18,7 @@ body{
     justify-content: center;
     align-items: center;
    
+   
 }
 .logo{
     display: flex;
@@ -79,7 +80,7 @@ header{
     background-repeat: no-repeat;
     /* background-clip: inherit; */
     background-blend-mode: darken;
-    /* height: 60vh; */
+    height: 60vh;
     width: 100%;
 }
 .modal{
@@ -426,7 +427,9 @@ footer{
 .subscription p{
     margin-bottom:1rem;
 }
-
+.sub-2{
+    display: none !important;
+}
 
 
 
@@ -441,8 +444,9 @@ footer{
         margin-bottom: 7rem;
     }
     .container{
-        /* flex-wrap: wrap; */
-        width: 100%;
+       overflow: hidden;
+        display: flex;
+        width: 100vw;
         margin: 0 auto;
        
     }
@@ -454,9 +458,9 @@ footer{
         margin: auto;
         transform: translateY(6rem);
     }
-     .modal{
-    width: 75%;
-    transform: translateY(5rem);
+.modal{
+    width: 70%;
+    transform: translateY(4rem);
     height: 200px;
     justify-content: center;
     align-items: center;
@@ -464,21 +468,23 @@ footer{
   form{
       display: flex;
       flex-direction: row;
+      font-size: 0.7rem;
   }
   .modal input{
       margin-bottom: 0.8rem;
       margin-left: 0;
       flex-direction: row;
+      width: 50%;
   }
   .modal button{
-    padding: 1rem 0.7rem;
-    border-radius: 7px;
-    font-size: 0.7rem;
+    width: 30%;
     display: flex;
-    align-items: center;
     justify-content: center;
-    /* height: 53px; */
+    align-items: center;
+    border-radius: 7px;
+    padding: 1.2rem 1rem;
     margin-bottom: 13px;
+    font-size: small;
    
   }
   .mid-section{
@@ -508,7 +514,8 @@ footer{
   .obudu-ranch-CR,
 .transcorp-hilton-Abj,
 .yankari-game-bauchi{
- height: 220px;
+ height: 221px;
+ 
 }
 
 .tour-locations{
@@ -520,7 +527,6 @@ footer{
     margin: 0 auto;
 }
   .tour-locations *{
-      /* width: 202px; */
       margin: 0 0.5rem;
   }
 .assisting-to-find{
@@ -529,6 +535,13 @@ footer{
 }
 .assisting-to-find img{
    width: 40%;
+}
+.resizing-reviews{
+  padding-top: 0;
+}
+.resize-img{
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 .lost-info{
     margin-left: 0;
@@ -559,9 +572,10 @@ footer{
     display: none;
 }
 footer{
-display: block;
+display: flex;
+margin: 0;
 }
-.awari-logo__{
+ .awari-logo__{
     padding: 8px 16px 8px 8px;
     margin-top: 13px;
 }
@@ -601,12 +615,8 @@ display: block;
 #email{
     padding: 0.3rem 2rem;
 }
-.subscription btton{
-    padding: 0.2rem;
-    font-size: 0.9rem;
-    left: 12.2rem;
-    bottom: 3.5rem;
-
+.none{
+    display: none !important;
 }
 
 }
@@ -632,6 +642,7 @@ display: block;
    header{
        width: 95vw;
        margin: 0.5rem 0rem 0 0.5rem;
+       padding: 0.5rem 0;
    }
 .logo h1{
     font-size: 1.3rem;
@@ -650,26 +661,26 @@ display: block;
 }
 .motto{
    position: absolute;
-   top: 6rem;
+   top: 1rem;
    font-size: 0.9rem;
-   left: 9rem;
+   left: 6.5rem;
    line-height: 1.11rem;
 }
 .modal{
-    height: 200px;
+    height: 180px;
     display: flex;
     flex-direction: column;
 }
 .modal button{
     margin:  auto;
-    padding: 0.4rem;
-    border-radius: 7px;
+    padding: 0.2rem 2.4rem;
+    border-radius: 10px;
     font-size: 0.8rem;
     
 }
 .modal input{
     width: 100%;
-    margin: 0.5rem 0;
+    margin: 0.5rem 0.5rem;
 }
 
 .explore,
@@ -730,11 +741,11 @@ details{
 }
 .tourist-services img{
     display: flex;
-    width: 96%;
+    width: 95%;
   /* margin: 0 0.5rem;   */
 }
 .tourist-services-info{
-    margin:0 0.5rem 2rem 0.5rem;
+    margin:0 0.6rem 2rem 0.5rem;
 }
 .browse-destination,
 .destination__{
@@ -744,23 +755,36 @@ details{
 .tour-locations{
     display: flex;
     flex-direction: column;
+
 }
+.tour-locations > *{
+    margin: 4rem 0 0 0;
+}
+
 .resizing-reviews{  
     margin-bottom: 1.5rem;
-    box-shadow: none;
+    width: 100%;
+    box-shadow: 1px 1px 4px 1px rgba(129, 102, 227, 0.5);
+    margin-left: 0;
    
 }
 .resize-img{
-    margin: 0 0;
+    margin: 0;
     width: 100%;
 }
-
+.resize
 .obudu-ranch-CR,
 .transcorp-hilton-Abj,
 .yankari-game-bauchi{
-    width: 90vw;
-    box-shadow: 1px 1px 4px 1px rgba(129, 102, 227, 0.5);
-    margin-bottom: 2rem;
+    width: 95%;
+    margin: 5rem;
+    margin-top: 4rem;
+}
+.transcorp-hilton-Abj{
+    margin-top: 8.5rem;
+}
+.obudu-ranch-CR{
+    width: 95%;
 }
 .assisting-to-find{
     display: flex;
@@ -831,9 +855,9 @@ footer{
     font-size: small;
 }
 .subscription{
-    padding: 0;
-    margin-left: 0rem;
-    width: 100%;
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+    width: 80%;
 }
 .subscription input{
     width: 100%;
@@ -849,4 +873,6 @@ footer{
     text-align: left;
 }
 }
+
+
 
